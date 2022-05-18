@@ -144,10 +144,10 @@ header .zt_title {
 	transition: 0.2s;
 }
 
-.zingtree-node .panels-node-question .answers .list-group-item:hover {
+/* .zingtree-node .panels-node-question .answers .list-group-item:hover {
 	background: #e8e8e8;
 	padding-left: 24px;
-}
+} */
 
 .zingtree-node .panels-node-question #question_area .list-group-item-question {
 	background: transparent;
