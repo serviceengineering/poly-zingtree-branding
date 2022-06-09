@@ -1,4 +1,5 @@
 function country(val) {
+  console.log(val);
   if (val == "Andorra")
     document.getElementById("result").innerHTML = "<table class='table table-bordered' style='width: 75%; margin-left: calc(7%); margin-right: calc(18%);'><tbody><tr><td style='width: 39.4121%; background-color: rgb(250, 250, 250); text-align: center;'><strong>Product</strong></td><td style='width: 31.8511%; background-color: rgb(250, 250, 250); text-align: center;'><strong>Part Number</strong></td><td style='width: 28.6245%; background-color: rgb(250, 250, 250); text-align: center;'><strong>Warranty Month</strong></td></tr><tr><td style='background-color: rgb(250, 250, 250); text-align: center; width: 39.4121%;'><span>VOYAGER 5200/R,HEADSET,E&A</span><br></td><td style='background-color: rgb(250, 250, 250); text-align: center; width: 31.8511%;'><span>203500-05 / 203600-05</span><br></td><td style='background-color: rgb(250, 250, 250); text-align: center; width: 28.6245%;'><span>24</span><br></td></tr></tbody></table>";
   else if (val == "Australia")
