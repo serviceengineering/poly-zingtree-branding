@@ -86,7 +86,7 @@ header .zt_title {
 /*-------------*/
 .widewrapper.main > .container {
 	background: #f2f2f2;
-	box-shadow: 0px 0px 30px rgba(64, 92, 125, 0.4);
+	/* box-shadow: 0px 0px 30px rgba(64, 92, 125, 0.4); */
 }
 
 .panel {
@@ -141,7 +141,6 @@ header .zt_title {
 	font-family: "ff-good-headline-web-pro";
 	font-weight: 400;
 	font-size: 1.25rem;
-	transition: 0.2s;
 }
 
 .zingtree-node .panels-node-question .answers .list-group-item:hover {
@@ -196,7 +195,6 @@ header .zt_title {
 	border-radius: 2px;
 	background: transparent;
 	color: #666;
-	transition: 0.1s;
 	font-weight: 600;
 }
 
@@ -296,7 +294,6 @@ header .zt_title {
 	text-transform: uppercase;
 	padding: 8px 24px;
 	color: #e13200;
-	transition: 0.1s;
 }
 
 #back_button:hover, #restart_button:hover {
