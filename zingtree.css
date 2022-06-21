@@ -145,6 +145,7 @@ header .zt_title {
 	font-family: "ff-good-headline-web-pro";
 	font-weight: 400;
 	font-size: 1.25rem;
+	transition: 0.2s;
 }
 
 .zingtree-node .panels-node-question .answers .list-group-item:hover {
@@ -200,6 +201,7 @@ header .zt_title {
 	background: transparent;
 	color: #666;
 	font-weight: 600;
+	transition: 0.1s;
 }
 
 .zingtree-node #qa-area .answers .btn:before {
@@ -298,6 +300,7 @@ header .zt_title {
 	text-transform: uppercase;
 	padding: 8px 24px;
 	color: #e13200;
+	transition: 0.1s;
 }
 
 #back_button:hover, #restart_button:hover {
