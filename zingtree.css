@@ -172,7 +172,20 @@ header .zt_title {
 	color: #e13200;
 }
 
-.zingtree-node .content-only h1, h2, h3, h3 {
+.zingtree-node .content-only h1 {
+	color: #e13200;
+	text-transform: uppercase;
+}
+
+.zingtree-node .content-only h2 {
+	color: #e13200;
+	text-transform: uppercase;
+}
+.zingtree-node .content-only h3 {
+	color: #e13200;
+	text-transform: uppercase;
+}
+.zingtree-node .content-only h4 {
 	color: #e13200;
 	text-transform: uppercase;
 }
