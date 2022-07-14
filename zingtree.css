@@ -407,3 +407,9 @@ header .zt_title {
 .content-only .btn:hover {
 	background: #ff3700;
 }
+
+table > tbody > tr > td {
+	width: 50%; 
+	text-align: center;
+	background-color:	rgb(250, 250, 250);
+}
