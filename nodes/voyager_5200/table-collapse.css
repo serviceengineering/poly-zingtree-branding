@@ -1,0 +1,55 @@
+#accordion-audio-switch a[data-toggle=collapse]::before, #accordion-product-usage a[data-toggle=collapse]::before, #accordion-feature a[data-toggle=collapse]::before, #accordion-product-part-numbers a[data-toggle=collapse]::before
+{
+    content: "\f107";
+    float: right;
+    font-family: FontAwesome;
+    font-weight: 700;
+}
+.product {
+  font-weight: bold;
+  text-align: center;
+}
+.part-number {
+  font-weight: bold;
+  text-align: center;
+}
+.warranty-month {
+  font-weight: bold;
+  text-align: center;
+}
+#table-selector, #usb-parts {
+display: block;
+height: 38px;
+padding: 6px 12px;
+font-size: 16px;
+line-height: 1.5;
+color: #314d68;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+ transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.country-table {
+  width: 75%;
+  margin-left: calc(7%);
+  margin-right: calc(18%);
+  display:none;
+}
+.usb-adapter{
+  width: 75%;
+  margin-left: calc(35%);
+  margin-right: calc(35%);
+  display:none;
+}
+.active-sensors, .putting-on, .taking-off {
+   font-weight: bold;
+   text-align: center;
+}
+.table-usage, .table-part-number, .country-table{
+table-layout: fixed;
+}
+</style>
