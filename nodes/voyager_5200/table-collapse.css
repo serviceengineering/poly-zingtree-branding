@@ -1,3 +1,4 @@
+<style>
 #accordion-audio-switch a[data-toggle=collapse]::before, #accordion-product-usage a[data-toggle=collapse]::before, #accordion-feature a[data-toggle=collapse]::before, #accordion-product-part-numbers a[data-toggle=collapse]::before
 {
     content: "\f107";
